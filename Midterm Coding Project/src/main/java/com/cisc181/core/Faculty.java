@@ -4,6 +4,10 @@ import java.util.Date;
 
 public class Faculty extends Employee {
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private String officeHours;
 	private int rank;
 

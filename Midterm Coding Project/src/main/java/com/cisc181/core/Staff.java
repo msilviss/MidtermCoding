@@ -6,7 +6,11 @@ import com.cisc181.eNums.eTitle;
 
 public class Staff extends Employee {
 
-	 private eTitle Title;
+	 /**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+	private eTitle Title;
 
 	   public Staff(eTitle title){
 	        this.Title = title;

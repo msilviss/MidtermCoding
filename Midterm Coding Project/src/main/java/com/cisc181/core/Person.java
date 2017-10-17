@@ -10,6 +10,10 @@ import java.util.regex.Pattern;
  */
 public abstract class Person implements java.io.Serializable {
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private Date DOB;
 	private String FirstName;
 	private String MiddleName;
